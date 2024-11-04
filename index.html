@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>3D Shape Creator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>3D Shape Creator</h1>
+		</header>
+
+		<main>
+			<section class="controls-section">
+				<div class="controls-container">
+					<label for="shapeSelector">Choose a shape:</label>
+					<select id="shapeSelector">
+						<option value="pentagon">Pentagon</option>
+						<option value="triangle">Triangle</option>
+						<option value="circle">Circle</option>
+						<option value="square">Square</option>
+						<option value="custom">Custom</option>
+					</select>
+
+					<label for="colorPicker">Choose a color:</label>
+					<input type="color" id="colorPicker" value="#3498db" />
+
+					<button id="generate3D">Generate 3D</button>
+				</div>
+			</section>
+
+			<section class="canvas-section">
+				<canvas id="drawingCanvas" width="600" height="600"></canvas>
+				<div id="canvas3DContainer"></div>
+			</section>
+
+			<section class="upload-section">
+				<label for="imageUpload">Upload an image:</label>
+				<input type="file" id="imageUpload" accept="image/*" />
+				<button id="drawImage">Draw Image in 3D</button>
+				<button id="clearCanvas">Clear Canvas</button>
+			</section>
+		</main>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
