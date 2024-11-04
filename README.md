@@ -22,14 +22,17 @@ To run the application locally, follow these steps:
 
    ```bash
    git clone https://github.com/mohamed74aymn/multi-2.git
+```
+```
 
-##Usage
+## Usage
 Select a shape from the dropdown menu.
 Choose a color using the color picker.
 Click on "Generate 3D" to create the shape.
 To upload an image, use the upload button, draw on it, and then click "Draw Image in 3D".
 Use "Clear Canvas" to reset your drawings.
-Technologies Used
+
+## Technologies Used
 HTML
 CSS
 JavaScript
@@ -37,9 +40,9 @@ Three.js (for 3D rendering)
 Contributing
 Contributions are welcome! If you have suggestions for improvements or features, please create an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 Thanks to the Three.js community for providing an awesome library for 3D rendering.
 Special thanks to all contributors and users who provide feedback.
