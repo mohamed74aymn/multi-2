@@ -1,3 +1,7 @@
+## small note 
+i still have error in uplad image and make ai to recognize to it but i am work to solve it thank  you !😊
+
+
 # 3D Shape Creator
 
 Welcome to the **3D Shape Creator**! This web application allows users to create 3D shapes from basic 2D drawings and uploaded images. With an intuitive interface, you can choose from various shapes, select colors, and even upload images to visualize them in 3D.
